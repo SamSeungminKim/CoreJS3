@@ -17,3 +17,10 @@
 - Array prototype 내부에 있지 않은 Array method (ex. isArray(), from 등 )는 접근 불가
 ```
 
+### ex6_03
+```
+[constructor 프로퍼티]
+- 인스턴스의 __proto__가 생성자 함수의 prototype 프로퍼티를 참조
+- 인스턴스의 __proto__는 생략 가능하므로, 인스턴스에서 직접 constructor에 접근 가능
+```
+
