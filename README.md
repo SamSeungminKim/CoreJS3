@@ -9,3 +9,11 @@
   SUZI__proto__를 반환하는데,
   이는 iu.__proto__ 객체는 suzi.__proto__와 동일 객체인 Person.protype을 같이 바라 보기 때문임.
 ```
+
+### ex6_02
+```
+[prototype과 __proto__]
+- Array instance는 push, pop, forEach()와 같은 Array prototype의 method에 접근 가능하나 (__proto__를 통해 호출 가능)
+- Array prototype 내부에 있지 않은 Array method (ex. isArray(), from 등 )는 접근 불가
+```
+
