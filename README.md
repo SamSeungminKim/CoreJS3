@@ -41,3 +41,12 @@
   Object.getPrototypeof([instance]).constructor
   [Consturctor].prototype.constructor
 ```
+
+### ex6_06
+```
+[메서드 오버라이드]
+- 메서드를 찾는 방식은 가장 가까운 대상인 자신의 프로퍼티를 검색하고, 
+  없으면 그 다음으로 가까운 대상인 __proto__를 검색하는 순서로 진행
+- iu.getName() 실행시 Prototype getName() 내의 this는 iu를 가르키나
+- iu.__proto__.getName() 실행시 Prototype getName() 내의 this는 Person.prototype 임.
+```
