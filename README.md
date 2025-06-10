@@ -24,3 +24,10 @@
 - 인스턴스의 __proto__는 생략 가능하므로, 인스턴스에서 직접 constructor에 접근 가능
 ```
 
+### ex6_04
+```
+[constructor 변경]
+- constructor는 읽기전용 속성이 부여된 기본형 리터럴 변수(number, string, boolean)를 제외하고 변경 가능
+- 다만, constructor를 변경하더라도 참조 대상이 변경될 뿐, 이미 만들어진 인스턴스의 원형이 바뀌거나 데이터 타입이 변경되는 것은 아님.
+```
+
