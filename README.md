@@ -31,3 +31,13 @@
 - 다만, constructor를 변경하더라도 참조 대상이 변경될 뿐, 이미 만들어진 인스턴스의 원형이 바뀌거나 데이터 타입이 변경되는 것은 아님.
 ```
 
+### ex6_05
+```
+[다양한 constructor 접근 방법]
+- 다음은 동일한 대상을 가르킴
+  [Constructor]
+  [instance].__proto__.constructor
+  [instance].constructor
+  Object.getPrototypeof([instance]).constructor
+  [Consturctor].prototype.constructor
+```
