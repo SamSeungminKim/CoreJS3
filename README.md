@@ -79,3 +79,10 @@
 - Object.creat(null)을 이용하면 __proto__가 없는 객체를 생성할 수 있음.
 - 따라서, 프로토타입 체인상 가장 마지막에 있는 Object.prototype에 접근 할 수 없도록 Protype Chain을 끊을 수 있음.
 ```
+
+### ex6_10
+```
+[Grade 생성자 함수와 인스턴스]
+- 생성자 Grade의 prototype 인 Grade.prototype은 Object의 instance 이므로 Grade의 instance인 g는 Array의 메서드를 사용할 수는 없다.
+- 다만, Garde.prototype = []; 를 실행하여 Grade의 prototype을 Array instance를 만들어 준 후, Grade instance gg를 생성하면 gg는 Array의 메서드를 사용할 수 있음.
+```
