@@ -50,3 +50,11 @@
 - iu.getName() 실행시 Prototype getName() 내의 this는 iu를 가르키나
 - iu.__proto__.getName() 실행시 Prototype getName() 내의 this는 Person.prototype 임.
 ```
+
+### ex6_07
+```
+[배열에서 배열 메서드 및 객체 메서드 실행]
+- push()는 Array.prototype의 메서드이며 (arr.__proto__.push())
+- hasOwnProperty()는 Arrary.prototype의 상위 Object.prototype의 메서드 임. (arr.__proto__.__proto__.hasOwnProperty())
+- Prototype Chain을 타고 올라간다. (프로토타입 체이닝)
+```
