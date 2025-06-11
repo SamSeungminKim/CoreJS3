@@ -69,5 +69,13 @@
 ### ex6_09
 ```
 [Object.prototype에 추가한 메서드에의 접근]
+- 모든 prototype은 Object의 instance이므로
+- Protype Chain을 타고 끝까지 가면 오른쪽 맨 끝에 Object.prototype을 만남
+```
 
+### ex6_09A(추가 예제)
+```
+[Object.prototype에 접근 못하는 경우]
+- Object.creat(null)을 이용하면 __proto__가 없는 객체를 생성할 수 있음.
+- 따라서, 프로토타입 체인상 가장 마지막에 있는 Object.prototype에 접근 할 수 없도록 Protype Chain을 끊을 수 있음.
 ```
