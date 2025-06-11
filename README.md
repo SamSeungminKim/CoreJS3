@@ -58,3 +58,10 @@
 - hasOwnProperty()는 Arrary.prototype의 상위 Object.prototype의 메서드 임. (arr.__proto__.__proto__.hasOwnProperty())
 - Prototype Chain을 타고 올라간다. (프로토타입 체이닝)
 ```
+
+### ex6_08
+```
+[메서드 오버라이드와 프로토타입 체이닝]
+- arr 변수는 배열이므로 arr.__proto__는 Array.prototype을 참조
+- Array.prototype은 객체이므로 Array.prototype.__proto__는 Object.prototype를 참조
+```
