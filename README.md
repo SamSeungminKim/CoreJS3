@@ -65,3 +65,9 @@
 - arr 변수는 배열이므로 arr.__proto__는 Array.prototype을 참조
 - Array.prototype은 객체이므로 Array.prototype.__proto__는 Object.prototype를 참조
 ```
+
+### ex6_09
+```
+[Object.prototype에 추가한 메서드에의 접근]
+
+```
