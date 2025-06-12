@@ -141,5 +141,13 @@
 - 예제7-05에서는 Square가 width property만 존재했으나,
 - 본 예제에서는 Rectangle과 유사하도록(Rectangle의 하위클래스가 될 수 있도록)
   Square에 width 및 height property를 모두 갖도록 함.
-- 다만, 아직은 getArea mothod는 Square.prototype에 정의된 함수를를 사용.
+- 다만, 아직은 getArea method는 Square.prototype에 정의된 함수를 사용.
+```
+
+### ex7_07
+```
+[Rectangle을 상속하는 Square 클래스]
+- 예제7-06에서는 getArea method를 Square.prototype에 정의했으나,
+- 본 예제에서는 Square의 생성자에 Rectangle을 Call 하도록(상속하도록) 하였고,
+- Square의 instance sq가 프로토타입 체이닝을 따라 Rectangle.prototype의 getArea()method를 사용할 수 있도록 Square.Prototype이 Rectangle instance를 가르키도록 함.
 ```
