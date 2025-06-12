@@ -95,3 +95,11 @@
 - 생성자 Rectangle의 메서드인 스태틱 메서드 isRectangle에는 직접 접근 할 수 없음.
 - 다만, 스태닉 메서드를 사용하려면 Rectangle.isRectangle(rect1) 형태로 실행 가능함.
 ```
+
+### ex7_02
+```
+[6-2-4절(ex6-10.js)의 Grade 생성자 함수 및 인스턴스]
+- g는 Object Grade의 인스턴스이나, 
+- Garde.prototype = []; 를 실행하여 Grade의 prototype을 Array instance를 만들어 준 후, 
+- Grade instance g를 생성하면 g는 Array의 메서드를 사용할 수 있음.
+```
