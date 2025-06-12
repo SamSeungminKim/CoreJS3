@@ -86,3 +86,12 @@
 - 생성자 Grade의 prototype 인 Grade.prototype은 Object의 instance 이므로 Grade의 instance인 g는 Array의 메서드를 사용할 수는 없다.
 - 다만, Garde.prototype = []; 를 실행하여 Grade의 prototype을 Array instance를 만들어 준 후, Grade instance gg를 생성하면 gg는 Array의 메서드를 사용할 수 있음.
 ```
+
+
+### ex7_01
+```
+[스태틱 메서드, 프로토타입 메서드]
+- 인스턴스 rect1은 프로토타입 메서드에는 접근 가능하나, 
+- 생성자 Rectangle의 메서드인 스태틱 메서드 isRectangle에는 직접 접근 할 수 없음.
+- 다만, 스태닉 메서드를 사용하려면 Rectangle.isRectangle(rect1) 형태로 실행 가능함.
+```
