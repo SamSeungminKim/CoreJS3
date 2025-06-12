@@ -112,3 +112,16 @@
 - length가 있고 값이 0인 관계로 g[0]에 70이 들어가는 원치 않는 결과 발생함.
 - push 동작에 의해 g에는 lenght property가 다시 만들어지고 값은 1이 됨. 
 ```
+
+### ex7_04
+```
+[요소가 있는 배열을 prototype에 매칭한 경우]
+- ex7_03과 같이 g.push(70)을 실행했을 때 배열 마지막에 70을 놓기위해 length를 찾아보니
+- g.length가 삭제된 관계로, g의 prototype (즉, g.__proto__)을 찾아가니
+- length가 있는데 값이 4임. 
+- ex7_03에서는 Prototype에 빈배열[]을 할당했으니 lenght가 0이 었으나,
+- ex7_04에서는 Prototype에 길이 4의 배열을 할당한 관계로 lenght에 4가 들어가 있고
+- g[4]에 70이 들어가는 원치 않는 결과 발생함.
+- push 동작에 의해 g에는 lenght property가 다시 만들어지고 값은 5가 됨. 
+- 배열 index 3은 없음. (쓰레기 값 출력?)
+```
