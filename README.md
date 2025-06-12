@@ -134,3 +134,12 @@
 - 클래스 흉내 내기 연습
   : 본 예제에서는 Rectangle과 Square는 기능이 유사하나 서로 무관한 상태임.
 ```
+
+### ex7_06
+```
+[Square 클래스 변형]
+- 예제7-05에서는 Square가 width property만 존재했으나,
+- 본 예제에서는 Rectangle과 유사하도록(Rectangle의 하위클래스가 될 수 있도록)
+  Square에 width 및 height property를 모두 갖도록 함.
+- 다만, 아직은 getArea mothod는 Square.prototype에 정의된 함수를를 사용.
+```
