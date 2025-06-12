@@ -103,3 +103,12 @@
 - Garde.prototype = []; 를 실행하여 Grade의 prototype을 Array instance를 만들어 준 후, 
 - Grade instance g를 생성하면 g는 Array의 메서드를 사용할 수 있음.
 ```
+
+### ex7_03
+```
+[length 프로퍼티를 삭제한 경우]
+- g.push(70)을 실행했을 때 배열 마지막에 70을 놓기위해 length를 찾아보니
+- g.length가 삭제된 관계로, g의 prototype (즉, g.__proto__)을 찾아가니
+- length가 있고 값이 0인 관계로 g[0]에 70이 들어가는 원치 않는 결과 발생함.
+- push 동작에 의해 g에는 lenght property가 다시 만들어지고 값은 1이 됨. 
+```
