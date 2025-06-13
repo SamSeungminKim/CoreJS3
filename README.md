@@ -171,5 +171,13 @@
 ### ex7_09
 ```
 [클래스 상속 및 추상화 방법(2) - 빈 함수를 활용]
-- 즉시 실행함수 내부에서 Bridge를 선언하고 이를 클로저로 활용함여 메모리에 불필요한 함수 선언을 줄임임
+- 즉시 실행함수 내부에서 Bridge를 선언하고 이를 클로저로 활용함여 메모리에 불필요한 함수 선언을 줄임
+```
+
+### ex7_10
+```
+[클래스 상속 및 추상화 방법(3) - Object.create 활용]
+- Square.prototype의 __proto__가 Rectangle.prototype을 보게하고,
+- Square.prototype에는 불필요한 인스턴스 프로퍼티가 없도록 
+- Object.create(Rectangle.prototype) 활용
 ```
