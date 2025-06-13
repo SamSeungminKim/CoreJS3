@@ -204,3 +204,12 @@
 - 그안에 Object.create() 활용하였으며,
 - SubClass.prototype.constructor를 SubClass 즉 Square를 가르키도록 함.
 ```
+
+### ex7_14
+```
+[상위 클래스 접근 수단인 super 메서드 추가]
+- SuperClass의 생성자 함수에 접근하고자 할때는 this.super()
+- SuperClass의 프로토타입 메서드에 접근하고자 할때는 this.super(propName) 사용
+- sq.getArea()는 SubClass의 메서드 실행
+- sq.super('getArea')()를 호출하면 SuperClass의 메서드 실행
+```
