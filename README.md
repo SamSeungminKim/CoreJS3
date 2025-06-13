@@ -188,3 +188,10 @@
 - 예제7_08에서는 존재하지 않던 SubClass.prototype.constructor를 
   SubClass 즉 Square를 가르키도록 함.
 ```
+
+### ex7_12
+```
+[클래스 상속 및 추상화 방법- 완성본(2) - 빈 함수를 활용]
+- 예제7-09에서는 존재하지 않던 SubClass.prototype.constructor를 
+  SubClass 즉 Square를 가르키도록 함.
+```
