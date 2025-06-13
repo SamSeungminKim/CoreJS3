@@ -223,3 +223,11 @@
 - static method(){} 생성자 Class(함수) 자신만 호출할 수 있는 static 메서드
 - method(){} Prototype 객체에 할당되어 instance가 (프로토타입 체이닝을 통해) 호출할수 있는 일반 메서드
 ```
+
+### ex7_16
+```
+[ES6의 클래스 상속]
+- 상속받기 : class extend 부모클래스{}
+- consturctor 내부에서 부모 constructor 실행하기 : super() 
+- 자신의 this로 부모클래스의 메서드를 사용 하기 : super.method()
+```
