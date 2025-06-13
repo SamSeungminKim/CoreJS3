@@ -159,3 +159,11 @@
 - extendClass1 함수를 만들어 SubClass.protype가 SuperClass를 상속받되,
 - 기존 Property는 모두 제거, 필요한 Method는 추가 후 Freezing
 ```
+
+### ex7_08A(추가예제) 
+```
+[Rectangle을 상속하는 Square 클래스 - 더글러스 크락포트의 Bridge 빈함수 ]
+- 예제7_07에서 추가하여 클래스가 구체적인 데이터를 지니지 않게 
+- Property를 지우고 Object를 Freeze 했던 방법과는 다르게
+- Bridge 라는 빈함수를 만들어 구현
+```
