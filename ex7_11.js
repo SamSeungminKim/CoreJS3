@@ -6,7 +6,8 @@ var extendClass1 = function(SuperClass, SubClass, subMethods) {
     if (SubClass.prototype.hasOwnProperty(prop)) {
       delete SubClass.prototype[prop];
     }
-  }  
+  }
+  SubClass.prototype.consturctor = SubClass;
   if (subMethods) {
     for (var method in subMethods) {
       SubClass.prototype[method] = subMethods[method];

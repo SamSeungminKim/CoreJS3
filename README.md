@@ -181,3 +181,10 @@
 - Square.prototype에는 불필요한 인스턴스 프로퍼티가 없도록 
 - Object.create(Rectangle.prototype) 활용
 ```
+
+### ex7_11
+```
+[클래스 상속 및 추상화 방법- 완성본(1) - 인스턴스 생성 후 프로퍼티 제거]
+- 예제7_08에서는 존재하지 않던 SubClass.prototype.constructor를 
+  SubClass 즉 Square를 가르키도록 함.
+```
