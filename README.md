@@ -213,3 +213,13 @@
 - sq.getArea()는 SubClass의 메서드 실행
 - sq.super('getArea')()를 호출하면 SuperClass의 메서드 실행
 ```
+
+### ex7_15
+```
+[ES5와 ES6의 클래스 문법 비교]
+- ES6에서 클래스 문법 도입
+- class {} 클래스 본문
+- constuctor() {} 생성자 함수
+- static method(){} 생성자 Class(함수) 자신만 호출할 수 있는 static 메서드
+- method(){} Prototype 객체에 할당되어 instance가 (프로토타입 체이닝을 통해) 호출할수 있는 일반 메서드
+```
