@@ -150,4 +150,12 @@
 - 예제7-06에서는 getArea method를 Square.prototype에 정의했으나,
 - 본 예제에서는 Square의 생성자에 Rectangle을 Call 하도록(상속하도록) 하였고,
 - Square의 instance sq가 프로토타입 체이닝을 따라 Rectangle.prototype의 getArea()method를 사용할 수 있도록 Square.Prototype이 Rectangle instance를 가르키도록 함.
+- 다만, sq의 생성자는 프로토타입 체이닝을 타고 Rectangle을 바라봄.
+```
+
+### ex7_08
+```
+[클래스 상속 및 추상화 방법(1) - 인스턴스 생성 후 프로퍼티 제거]
+- extendClass1 함수를 만들어 SubClass.protype가 SuperClass를 상속받되,
+- 기존 Property는 모두 제거, 필요한 Method는 추가 후 Freezing
 ```
